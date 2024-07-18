@@ -23,6 +23,7 @@ body{
     align-items: center;
     max-width: 1100px;
     margin: 0 auto;
+    /* border: 2px solid red; */
 }
 .nav-title{
     font-size: 45px;
@@ -47,7 +48,7 @@ body{
    
 }
 .nav-menu-bar{
-    
+    border: 2px solid red;
     color: white;
     display: none;
 }
@@ -69,8 +70,8 @@ body{
 /* main banner section start here */
 .main-banner-container{
     /* border: 2px solid red; */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     align-items: center;
     gap: 150px;
@@ -78,7 +79,7 @@ body{
     /* border: 2px solid red; */
 }
 .main-banner-contant{
-    width: 600px;
+    max-width: 100%;
     /* border: 2px solid red; */
 }
 .banner-title{
@@ -112,6 +113,7 @@ body{
     padding: 10px 30px;
     margin-right: 10px;
     cursor: pointer;
+    
 }
 .download-btn{
     border: 1px solid gray;
@@ -129,13 +131,13 @@ body{
 }
 .banner-mini-card-1{
     background: rgba(255, 255, 255, 0.3);
-    width: 210px;
+    width: 180px;
     border: 2px solid rgba(255, 255, 255, 0.38);
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px 5px;
     position: absolute;
     top: 250px;
-    right: 300px;
+    right: 330px;
 }
 .banner-mini-card-2{
     background: rgba(255, 255, 255, 0.3);

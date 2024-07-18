@@ -11,15 +11,19 @@
         display: flex;
         align-items: center;
         font-size: 30px;
-        margin-right: 20px;
     }
     /* navbar responsive ends here */
 
     /* main-banner responsive starts here */
     .main-banner-container{
-        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-left: 20px;
 
+    }
+    .main-benner-contant button{
+        display: flex;
     }
     .banner-title{
         font-size: 3rem;
@@ -31,12 +35,12 @@
     }
     .banner-mini-card-1{
         position: absolute;
-        left: 240px;
-        top: 650px;
+        left: 290px;
+        top: 690px;
     }
     .banner-mini-card-2{
         left: 50px;
-        top: 850px;
+        top: 880px;
         
     }
      /* main-banner responsive ends here */
