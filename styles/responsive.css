@@ -1,21 +1,30 @@
 @media screen and (max-width:576px) {
-    
+    /* navbar responsive starts here */
     .nav-menus{
         display: none;
     }
-    
+
+    .nav-title{
+        margin-left: 20px;
+    }
     .nav-menu-bar{
         display: flex;
         align-items: center;
         font-size: 30px;
+        margin-right: 20px;
     }
+    /* navbar responsive ends here */
+
+    /* main-banner responsive starts here */
     .main-banner-container{
         grid-template-columns: repeat(1, 1fr);
+        margin-left: 20px;
 
     }
     .banner-title{
         font-size: 3rem;
         width: 300px;
+        
     }
     .main-banner-image img{
         margin-left: 50px;
@@ -30,4 +39,14 @@
         top: 850px;
         
     }
+     /* main-banner responsive ends here */
+
+     /* habit section responsice starts here */
+     .habit-images{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+     }
+     /* habit section responsice ends here */
 }
