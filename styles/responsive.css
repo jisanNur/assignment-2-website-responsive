@@ -1,0 +1,33 @@
+@media screen and (max-width:576px) {
+    
+    .nav-menus{
+        display: none;
+    }
+    
+    .nav-menu-bar{
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+    }
+    .main-banner-container{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .banner-title{
+        font-size: 3rem;
+        width: 300px;
+    }
+    .main-banner-image img{
+        margin-left: 50px;
+    }
+    .banner-mini-card-1{
+        position: absolute;
+        left: 240px;
+        top: 650px;
+    }
+    .banner-mini-card-2{
+        left: 50px;
+        top: 850px;
+        
+    }
+}
