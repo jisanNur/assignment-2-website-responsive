@@ -5,12 +5,13 @@
     }
 
     .nav-title{
-        margin-left: 20px;
+        margin-left: 50px;
     }
     .nav-menu-bar{
         display: flex;
         align-items: center;
         font-size: 30px;
+        margin-left: 20px;
     }
     /* navbar responsive ends here */
 
@@ -35,7 +36,7 @@
     }
     .banner-mini-card-1{
         position: absolute;
-        left: 290px;
+        left: 320px;
         top: 690px;
     }
     .banner-mini-card-2{
@@ -52,5 +53,29 @@
         flex-direction: column;
         gap: 30px;
      }
-     /* habit section responsice ends here */
+     /* habit section responsive ends here */
+
+     /* run section responsive starts here */
+     .run-container{
+        margin-top: 50px;
+        flex-direction: column;
+        max-width: 80%;
+        height: 100%;
+     }
+     .run-contant{
+        margin-top: 20px;
+        max-width: 80%;
+        text-align: justify;
+    }
+    .run-btn{ 
+        text-align: center;
+    }
+    .run-btn button{ 
+        padding: 10px 120px;
+    }
+    .run-image{
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+     /* run section responsive ends here */
 }

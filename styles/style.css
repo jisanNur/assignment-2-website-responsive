@@ -48,7 +48,7 @@ body{
    
 }
 .nav-menu-bar{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     display: none;
 }
@@ -178,7 +178,7 @@ body{
 /* Habit section start here */
 .habit-container{
     max-width: 1100px;
-    height: 550px;
+    height: 100%;
     /* border: 2px solid red; */
     margin: 0 auto;
     
@@ -209,6 +209,7 @@ body{
 .exracise-image{
     width: 200px;
     height: 300px;
+    margin-bottom: 40px;
 }
 .exracise-image img{
     border-radius: 50%;
@@ -228,4 +229,53 @@ body{
     text-align: center;
 }
 /* Habit section end here */
+
+/* Run section starts here */
+.run-container{
+    /* border: 2px solid red; */
+    max-width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.run-contant{
+    /* border: 2px solid red; */
+    max-width: 40%;
+}
+.run-title{
+    font-size: 3.75rem;
+    font-weight: 900px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.run-description{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 10px;
+}
+.run-btn button{
+    background-color: rgb(230, 83, 60);
+    border: none;
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.run-image {
+    /* border: 2px solid red; */
+    max-width: 40%;
+}
+.run-image img{
+    max-width: 100%;
+    border-radius: 20px;
+
+}
+/* Run section Ends here */
 
