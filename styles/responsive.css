@@ -5,13 +5,16 @@
     }
 
     .nav-title{
-        margin-left: 50px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        border: 2px solid red;
     }
     .nav-menu-bar{
         display: flex;
         align-items: center;
         font-size: 30px;
-        margin-left: 20px;
+        margin: auto 20px;
     }
     /* navbar responsive ends here */
 
@@ -33,6 +36,7 @@
     }
     .main-banner-image img{
         margin-left: 50px;
+      
     }
     .banner-mini-card-1{
         position: absolute;
@@ -65,7 +69,6 @@
      .run-contant{
         margin-top: 20px;
         max-width: 80%;
-        text-align: justify;
     }
     .run-btn{ 
         text-align: center;
@@ -76,6 +79,12 @@
     .run-image{
         max-width: 80%;
         margin-bottom: 20px;
+    }
+    .run-image img{
+        max-width: 100%;
+        border-radius: 20px;
+        object-fit: fill;
+    
     }
      /* run section responsive ends here */
 }
