@@ -1,28 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+/* default style  */
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: "Inter", sans-serif;
-     background-color: rgba(0, 0, 0, 1);
 }
 
-.banner-container{
-    background: linear-gradient(rgba(255, 255, 255, 0.2), #000 100%);
+.container{
+    margin: 5rem auto;
+
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.banner {
+    width: 100%;
+    background: linear-gradient(to bottom, #000, rgba(255, 255, 255, 0.2), #000 100%);
     height: auto;
     /* border: 2px solid red; */
 }
 /* Navbar style start here */
 
-.nav-container{
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1100px;
-    margin: 0 auto;
     padding-top: 100;
     /* border: 2px solid red; */
 }
@@ -179,11 +184,11 @@ body{
 /* main banner section end here */
 
 /* Habit section start here */
-.habit-container{
+.habit {
     max-width: 1100px;
     height: 100%;
     /* border: 2px solid red; */
-    margin: 0 auto;
+    
     
 }
 .habit-contant{
@@ -234,11 +239,9 @@ body{
 /* Habit section end here */
 
 /* Run section starts here */
-.run-container{
-    /* border: 2px solid red; */
+.run {
     max-width: 60%;
-    height: 400px;
-    margin: 0 auto;
+    padding: 20px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
     display: flex;
@@ -283,4 +286,32 @@ body{
 
 }
 /* Run section Ends here */
+
+/* BMI calculator section starts here */
+
+/* BMI calculator container start*/
+.bmi {
+    /* border: 2px solid red; */
+    width: 670px;
+    height: 120px;
+    max-width: 80%;
+    line-height: normal;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.bmi-title{
+    font-size: 3.12rem;
+    font-weight: 900;
+    color: white;
+}
+
+.bmi-description{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.4);
+
+}
+
+/* BMI calculator section ends here */
 
