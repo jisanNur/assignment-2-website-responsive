@@ -5,7 +5,7 @@
     }
 
     .nav-title{
-        margin-left: 20px;
+        margin-left: 50px;
         display: flex;
         align-items: center;
         /* border: 2px solid red; */
@@ -87,4 +87,24 @@
     
     }
      /* run section responsive ends here */
+
+     /* calculator BMI  */
+
+     .flex{
+        flex-direction: column;
+     }
+     .bmi-char{
+        width: 100%;
+     }
+
+     .bmi-calculator{
+        width: 100%;
+        gap: 10px;
+     }
+     form{
+        width: 100%;
+     }
+     input, select{
+        width: 100%;
+     }
 }
