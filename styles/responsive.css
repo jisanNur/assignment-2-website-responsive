@@ -16,6 +16,9 @@
         align-items: center;
         font-size: 30px;
     }
+    .navbar{
+        width: 100%;
+    }
     /* navbar responsive ends here */
 
     /* main-banner responsive starts here */

@@ -404,6 +404,9 @@ input, select{
     color: rgba(255, 255, 255, 0.4);
     font-size: 18px;
 }
+option{
+    color: black;
+}
 #select-2 {
     grid-column: span 2;
 }
