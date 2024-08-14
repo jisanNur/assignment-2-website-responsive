@@ -621,3 +621,58 @@ hr{
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
 }
+.uniqe-section{
+    background: rgba(255, 255, 255, 0.2);
+    /* border: 2px solid red; */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5%;
+    gap: 20px;
+}
+
+.uniqe-section img{
+    width: 50%;
+    height: auto;
+}
+
+.unique-card-1{
+    width: 30%;
+    height: auto;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 15px;    
+}
+.unique-style{
+    padding: 30px;
+}
+.unique-style:hover{
+    background-color: green;
+    padding: 5%;
+}
+.unique-card-2{
+    width: 30%;
+    height: auto;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.unique-card-3{
+    width: 30%;
+    height: auto;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.unique-btn{
+    margin-top: 10px;
+    background-color: red;
+    color: aqua;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
